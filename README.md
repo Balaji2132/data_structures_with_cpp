@@ -11,6 +11,7 @@ Topics that I am going to cover in the given order.
 8. Graphs
 9. Heaps
 10. Greedy Approach
-11. Binary Search
-12. Backtracking
-13. Dynamic Programming
+11. Searching
+12. Sorting
+13. Backtracking
+14. Dynamic Programming
