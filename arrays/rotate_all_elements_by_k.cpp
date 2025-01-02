@@ -3,6 +3,9 @@ using namespace std;
 
 void rotateArray(int arr[], int n, int k) {
     k = k % n; // In case k is greater than n
+     if (k < 0) {
+        k = n + k; // In case k is negative.
+    }
     int temp[k];
 
     // Store the last k elements in temp array.
@@ -36,7 +39,7 @@ int main()
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
-    cout << "Enter the value of k: ";
+    cout << "\nEnter the value of k: ";
     cin >> k;
 
     rotateArray(arr, n, k);
